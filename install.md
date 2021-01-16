@@ -21,6 +21,10 @@ ssl_verify: true
 ## env里面的cpu加载
 ```
 activate tensorflow
+pip install tensorflow -i https://pypi.douban.com/simple 成功
+
+下面全部失败
+pip --default-timeout=100 install tensorflow==2.0.0 -i https://pypi.tuna.tsinghua.edu.cn/simple
 pip install -i https://pypi.tuna.tsinghua.edu.cn/simple tensorflow
 清华：https://pypi.tuna.tsinghua.edu.cn/simple
 
