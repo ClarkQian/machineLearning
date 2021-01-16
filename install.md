@@ -1,4 +1,5 @@
 [安装链接](https://www.cnblogs.com/ming-4/p/11516728.html)
+！！！完全不需要
 ## 环境加初步搭载
 ```
 conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/ 　　　　
@@ -21,6 +22,17 @@ ssl_verify: true
 ```
 activate tensorflow
 pip install -i https://pypi.tuna.tsinghua.edu.cn/simple tensorflow
+清华：https://pypi.tuna.tsinghua.edu.cn/simple
+
+阿里云：http://mirrors.aliyun.com/pypi/simple/
+
+中国科技大学 https://pypi.mirrors.ustc.edu.cn/simple/
+
+华中理工大学：http://pypi.hustunique.com/
+
+山东理工大学：http://pypi.sdutlinux.org/ 
+
+豆瓣：http://pypi.douban.com/simple/
 ```
 
 ## jupyter load
