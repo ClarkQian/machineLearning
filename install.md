@@ -15,8 +15,7 @@ conda config --set show_channel_urls yes
 ssl_verify: true
 - defaults
 
-然后在Anaconda Prompt中输入：conda create -n tensorflow python=3.5
-```
+
 
 ## env里面的cpu加载
 ```
@@ -39,8 +38,10 @@ pip install -i https://pypi.tuna.tsinghua.edu.cn/simple tensorflow
 豆瓣：http://pypi.douban.com/simple/
 ```
 
-## jupyter load
-```
-error
-conda install jupyter ??
-```
+1.遇到了
+
+ERROR: Cannot uninstall 'wrapt'. It is a distutils installed project and thus we cannot accurately determine which files belong to it which would lead to only a partial uninstall.
+
+办法1：输入 pip install -U --ignore-installed wrapt enum34 simplejson netaddr
+
+参考：https://www.cnblogs.com/xiaowei2092/p/11025155.html
