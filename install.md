@@ -26,4 +26,5 @@ pip install -i https://pypi.tuna.tsinghua.edu.cn/simple tensorflow
 ## jupyter load
 ```
 error
+conda install jupyter ??
 ```
